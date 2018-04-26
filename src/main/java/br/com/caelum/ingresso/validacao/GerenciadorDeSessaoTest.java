@@ -66,7 +66,7 @@ public class GerenciadorDeSessaoTest {
 	}
 	
 	@Test
-	public void garanteQueNaoDevePermitirUmaInsercaoEntreDoisFilmes(){
+	public void garanteQueDevePermitirUmaInsercaoEntreDoisFilmes(){
 		
 		List<Sessao> sessoes = Arrays.asList(sessaoDasDez,sessaoDasDezoito);
 		GerenciadorDeSessao gerenciador = new GerenciadorDeSessao(sessoes);
